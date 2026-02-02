@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADURANT LABS Hero Section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="m-0 p-0 w-full overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="relative flex items-center w-full h-20 px-8 bg-white z-50">
+        <!-- Left Links -->
+        <div class="flex items-center gap-8 text-[15px] font-medium text-gray-900 tracking-tight">
+            <a href="#" class="hover:text-[#475569] transition-colors">Partnership</a>
+            <a href="#" class="hover:text-gray-600 transition-colors">Product</a>
+            <a href="#" class="hover:text-gray-600 transition-colors">Brand</a>
+            <a href="#" class="hover:text-gray-600 transition-colors">Zurich</a>
+        </div>
+
+        <!-- Centered Logo -->
+        <div class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <!-- Using an image tag for the logo as it is a specific brand asset, 
+                 but using a text-based placeholder approach to match the visual weight of the black logo -->
+            <img src="https://placehold.co/120x30/ffffff/000000?text=ADURANT LABS&font=montserrat" alt="ADURANT LABS Logo" class="h-6 object-contain block mix-blend-multiply">
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative w-full h-[calc(100vh-80px)] min-h-[600px] bg-black">
+        <!-- Background Image -->
+        <!-- Using a dark placeholder to simulate the moody turbine image -->
+        <img src="https://imolwncbqxugevwmleed.supabase.co/storage/v1/object/public/public-assets/hero-images/e54425b6-6038-4170-a10c-135e06783c35/hero-1-img-0-1770057554538.png" 
+             alt="Turbine Engine" 
+             class="absolute inset-0 w-full h-full object-cover opacity-90">
+        
+        <!-- Gradient Overlay to ensure text readability matching the dark aesthetic -->
+        <div class="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40"></div>
+
+        <!-- Hero Content -->
+        <div class="relative z-10 flex flex-col items-center justify-center h-full w-full px-4">
+            <h1 class="text-white text-5xl md:text-7xl lg:text-[5.25rem] leading-[1.1] font-normal text-center tracking-tight antialiased drop-shadow-lg">
+                Institutional-Grade Design<br>for Crypto Founders
+            </h1>
+        </div>
+    </header>
+
+</body>
+</html>
